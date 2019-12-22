@@ -1,14 +1,14 @@
 private int div(int a, int b) {
-	if(b==0){throw new arithmetic();};
+	if(b==0){throw new arithmetic("/ by zero");};
 	return a / b;
 }
 
 private int divd(int a, int b) {
-	if(b==0){throw new arithmetic();};
+	if(b==0){throw new arithmetic("/ by zero");};
 	return a % b;
 }
 
 private int divn(int a, int b) {
-	if(b==0){throw new arithmetic();};
+	if(b==0){throw new arithmetic("/ by zero");};
 	return a / b;
 }
